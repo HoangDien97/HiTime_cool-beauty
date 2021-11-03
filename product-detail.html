@@ -24,15 +24,15 @@
         <div id="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-2 pt-md-0 pt-4">
                         <div id="logo">
-                            <a href="">
+                            <a href="index.html">
                                 <img src="images/logo_cool-beauty.png" class="img-fluid" alt="">
                             </a>
                         </div>
                     </div>
 
-                    <div class="col md-4">
+                    <div class="col-md-4 col-12">
                         <form action="" id="search">
                             <input type="text" name="q" placeholder="Tìm kiếm sản phẩm...">
                             <button><i class="fas fa-search"></i></button>
@@ -43,7 +43,7 @@
 
 
 
-                        <ul class="support d-flex align-items-center">
+                        <ul class="support d-md-flex align-items-center d-none">
                             <li id="media_1" class="media">
                                 <img src="images/phone.png" alt="">
                                 <div class="media-body d-md-flex flex-column d-none">
@@ -77,14 +77,34 @@
             </div>
         </div>
 
+        <div id="rps-menu" class="d-md-none">
+            <label for="check"><i class="fas fa-bars text-dark"></i></label>
+            <input id="check" type="checkbox">
+            <div class="test">
+                <ul id="respon-menu">
+                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a href="">GIỚI THIỆU</a></li>
+                    <li><a href="">SẢN PHẨM</a></li>
+                    <li><a href="">KHUYẾN MÃI HOT</a></li>
+                    <li><a href="">TIN TỨC</a></li>
+                    <li><a href="">LIÊN HỆ</a></li>
+
+                </ul>
+                <div class="account-submenu">
+                    <a href="" class="login text-decoration-none">Đăng nhập</a>
+                    <a href="" class="register text-decoration-none ml-3">Đăng ký</a>
+                </div>
+
+            </div>
+        </div>
 
 
         <!-- ----------end header--------  -->
 
         <div id="main-menu">
-            <div class="subheader mb-4">
+            <div class="subheader mb-4 d-md-block d-none pt-1">
                 <div class="container px-md-0">
-                    <div class="navigation-horizontal d-md-flex align-items-center d-none">
+                    <div class="navigation-horizontal  align-items-center">
                         <div class="navigation-wrapper">
                             <nav>
                                 <ul class="navigation list-group list-group-flush scroll">
@@ -139,6 +159,8 @@
                             </nav>
                         </div>
                     </div>
+                    <!-- --------  -->
+
                 </div>
 
             </div>
@@ -177,14 +199,13 @@
                 <div class="container bg_white pt-50">
                     <div class="row pt-2">
 
-                        <div class="detail_product_left col-md-6">
+                        <div class="detail_product_left col-md-6 col-12">
                             <div class="product_img">
                                 <a class="product_img_item" href="">
                                     <img class="img_item_1" src="images/slider_cool_1.png" alt="">
-                                    <!-- <img class="img_item_2" src="images/banh-2.png" alt=""> -->
                                 </a>
                             </div>
-                            <div class="product_img_item_slider mt-3">
+                            <div class="product_img_item_slider mt-3 d-md-block d-none">
                                 <div class="img_item_slider">
                                     <div class="img_item_slider1 active">
                                         <a class="text-decoration-none" href="">
@@ -202,7 +223,7 @@
                             </div>
                         </div>
 
-                        <div class="detail_product_right col-md-6">
+                        <div class="detail_product_right col-md-6 mt-md-0 mt-2">
                             <div class="title_product">
                                 <h3>Dầu dưỡng da Phytoceuticals Argan
                                 </h3>
@@ -322,18 +343,36 @@
                 <div class="container bg_white">
                     <div class="row pt-2">
                         <div class="col-md-9">
-                            <div class="title">
-                                <h2>Mô tả sản phẩm</h2>
+                            <nav>
+                                <div id="home-tab" class="nav nav-tabs">
+                                    <a href="#tab-content-1" class="nav-item nav-link active text-dark font-weight-bold" data-toggle="tab">Mô tả sản phẩm</a>
+                                    <a href="#tab-content-2" class="nav-item nav-link text-dark font-weight-bold" data-toggle="tab">Hỏi đáp về sản phẩm</a>
 
-                            </div>
-                            <div class="content">
-                                <p>Lorem ipsum dolor sit.<br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, ad. <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <p>Lorem ipsum dolor sit.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nisi!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit voluptatum repudiandae soluta laboriosam, assumenda fugiat.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt, dolorem iure corrupti at animi deleniti sint nihil dicta impedit</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt, dolorem iure corrupti at animi deleniti sint nihil dicta impedit</p>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit voluptatum repudiandae soluta laboriosam, assumenda fugiat.</p>
+                                </div>
+                            </nav>
+                            <!-- Nội dung tab  -->
+                            <div class="tab-content">
+                                <div id="tab-content-1" class="tab-pane show face active">
+
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste
+                                        debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit
+                                        temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste
+                                        debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit
+                                        temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste
+                                        debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit
+                                        temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.</p>
+
+                                </div>
+                                <div id="tab-content-2" class="tab-pane show face">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste
+                                        debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit
+                                        temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste
+                                        debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit
+                                        temporibus repellendus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iste debitis dignissimos unde odit reprehenderit saepe enim velit temporibus repellendus.</p>
+                                </div>
 
 
                             </div>
@@ -413,14 +452,14 @@
                         <div id="product-related">
                             <div id="products-new" class="container">
                                 <div class="title row">
-                                    <div class="col-12 text-center">
-                                        <h1 class="text-uppercase">Sản phẩm liên quan</h1>
+                                    <div class="col-md-12 col-12 text-left">
+                                        <h4 class="text-uppercase">Sản phẩm liên quan</h4>
 
                                     </div>
                                 </div>
                                 <div class="body row">
                                     <ul class="list-new-products row list-unstyled">
-                                        <li class="col-sm-6 col-md-3">
+                                        <li class="col-sm-6 col-md-3 col-6">
                                             <div class="product-item">
                                                 <a href="" class="pic-product d-block"><img src="images/bestseller_1.png" alt="" class="img-fluid"></a>
                                                 <div class="info-product">
@@ -430,7 +469,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-6 col-md-3">
+                                        <li class="col-sm-6 col-md-3 col-6">
                                             <div class="product-item">
                                                 <a href="" class="pic-product d-block"><img src="images/bestseller_2.png" alt="" class="img-fluid"></a>
                                                 <div class="info-product">
@@ -440,7 +479,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-6 col-md-3">
+                                        <li class="col-sm-6 col-md-3 col-6">
                                             <div class="product-item">
                                                 <a href="" class="pic-product d-block"><img src="images/bestseller_3.png" alt="" class="img-fluid"></a>
                                                 <div class="info-product">
@@ -450,7 +489,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="col-sm-6 col-md-3">
+                                        <li class="col-sm-6 col-md-3 col-6">
                                             <div class="product-item">
                                                 <a href="" class="pic-product d-block"><img src="images/bestseller_4.png" alt="" class="img-fluid"></a>
                                                 <div class="info-product">
@@ -468,6 +507,9 @@
 
 
                         <!-- end product related--------------------------  -->
+
+
+
 
 
 
@@ -645,11 +687,10 @@
 
                         </div>
 
-
-
                         <!-- footer---------------------------  -->
 
                     </div>
+
 
 
 
